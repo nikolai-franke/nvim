@@ -28,8 +28,8 @@ vim.api.nvim_set_keymap('n', '<m-l>', ':vertical-resize +4<cr>', { noremap = tru
 vim.api.nvim_set_keymap('n', '<leader>we', '<c-w>=', { noremap = true }) -- automatically resize splits
 
 -- Easier buffer closing and deleting
-vim.api.nvim_set_keymap('n', '<leader>bd', '<cmd>bdelete<cr>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<leader>bc', '<cmd>Bdelete<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>bq', '<cmd>bdelete<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>bd', '<cmd>Bdelete<cr>', { noremap = true })
 
 -- Easier saving and quitting
 vim.api.nvim_set_keymap('n', '<leader>wq', ':q<cr>', { noremap = true })
