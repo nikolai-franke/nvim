@@ -10,7 +10,7 @@ vim.api.nvim_set_keymap('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', { nor
 vim.api.nvim_set_keymap('n', '<leader>fc', '<cmd>Telescope neoclip<cr>', { noremap = true })
 
 -- Tree mappings
-vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>t', ':NvimTreeToggle<cr>', { noremap = true })
 
 -- Easier window related stuff
 vim.api.nvim_set_keymap('n', '<tab>', ':bnext<cr>', { noremap = true })
