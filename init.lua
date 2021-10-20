@@ -17,3 +17,4 @@ require('colorizer').setup {}
 require 'neoclip_config'
 require('Comment').setup {}
 require('lsp_signature').setup {}
+require 'highlightedyank_config'

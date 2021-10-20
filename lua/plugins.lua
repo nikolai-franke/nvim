@@ -58,4 +58,5 @@ return require('packer').startup(function()
         requires = { 'tami5/sqlite.lua', module = 'sqlite' },
     }
     use 'famiu/bufdelete.nvim'
+    use 'machakann/vim-highlightedyank'
 end)

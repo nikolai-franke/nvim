@@ -52,3 +52,24 @@ vim.api.nvim_set_keymap('n', '<leader>ut', '<cmd>UndotreeToggle<cr>', { noremap 
 
 -- Escape out of terminals
 vim.api.nvim_set_keymap('t', '<esc>', '<c-\\><c-n>', { noremap = true })
+
+-- Keep cursor centered
+vim.api.nvim_set_keymap('n', 'n', 'nzzzv', { noremap = true})
+vim.api.nvim_set_keymap('n', 'N', 'Nzzzv', { noremap = true})
+vim.api.nvim_set_keymap('n', 'J', 'mzJ`z', { noremap = true})
+
+-- Yank till end of line
+vim.api.nvim_set_keymap('n', 'Y', 'yg_', { noremap = true })
+
+-- Undo break points
+vim.api.nvim_set_keymap('i', ',', ',<c-g>u', { noremap = true})
+vim.api.nvim_set_keymap('i', '.', '.<c-g>u', { noremap = true})
+vim.api.nvim_set_keymap('i', '=', '=<c-g>u', { noremap = true})
+
+-- Moving text
+vim.api.nvim_set_keymap('v', 'J', [[:m'>+1<cr>gv=gv]], { noremap = true})
+vim.api.nvim_set_keymap('v', 'K', [[:m'<-2<cr>gv=gv]], { noremap = true})
+vim.api.nvim_set_keymap('i', '<c-j>', '<esc>:m .+1<cr>==', { noremap = true})
+vim.api.nvim_set_keymap('i', '<c-k>', '<esc>:m .-2<cr>==', { noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>j', ':m .+1<cr>==', { noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>k', ':m .-2<cr>==', { noremap = true})
