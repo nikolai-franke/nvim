@@ -16,3 +16,4 @@ require 'which-key_config'
 require('colorizer').setup {}
 require 'neoclip_config'
 require('Comment').setup {}
+require('lsp_signature').setup {}
