@@ -49,3 +49,6 @@ vim.api.nvim_set_keymap('n', '<leader>nf', ':Neoformat<cr>', { noremap = true })
 
 -- Undotree
 vim.api.nvim_set_keymap('n', '<leader>ut', ':UndotreeToggle<cr>', { noremap = true })
+
+-- Escape out of terminals
+vim.api.nvim_set_keymap('t', '<esc>', '<c-\\><c-n>', { noremap = true })
