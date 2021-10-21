@@ -73,3 +73,7 @@ vim.api.nvim_set_keymap('i', '<c-j>', '<esc>:m .+1<cr>==', { noremap = true})
 vim.api.nvim_set_keymap('i', '<c-k>', '<esc>:m .-2<cr>==', { noremap = true})
 vim.api.nvim_set_keymap('n', '<leader>j', ':m .+1<cr>==', { noremap = true})
 vim.api.nvim_set_keymap('n', '<leader>k', ':m .-2<cr>==', { noremap = true})
+
+-- Quick replace word under cursor
+vim.api.nvim_set_keymap('n', 'cn', '*``cgn', { noremap = true})
+vim.api.nvim_set_keymap('n', 'cN', '*``cgN', { noremap = true})

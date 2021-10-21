@@ -59,4 +59,11 @@ return require('packer').startup(function()
     }
     use 'famiu/bufdelete.nvim'
     use 'machakann/vim-highlightedyank'
+    use {
+        'ThePrimeagen/refactoring.nvim',
+        requires = {
+            { 'nvim-lua/plenary.nvim' },
+            { 'nvim-treesitter/nvim-treesitter' },
+        },
+    }
 end)
