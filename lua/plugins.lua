@@ -4,6 +4,7 @@ return require('packer').startup(function()
     use 'mhinz/vim-startify'
     use 'nvim-treesitter/nvim-treesitter'
     use 'nvim-treesitter/playground'
+    use 'nvim-treesitter/nvim-treesitter-textobjects'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-lua/plenary.nvim'
     use 'ray-x/lsp_signature.nvim'
@@ -26,7 +27,8 @@ return require('packer').startup(function()
     use 'tpope/vim-repeat'
     use 'puremourning/vimspector'
     use 'fisadev/vim-isort'
-    use 'justinmk/vim-sneak'
+    -- use 'justinmk/vim-sneak'
+    use 'ggandor/lightspeed.nvim'
     use 'vim-scripts/ReplaceWithRegister'
     use {
         'kyazdani42/nvim-tree.lua',
@@ -65,5 +67,9 @@ return require('packer').startup(function()
             { 'nvim-lua/plenary.nvim' },
             { 'nvim-treesitter/nvim-treesitter' },
         },
+    }
+    use { 
+        'heavenshell/vim-pydocstring',
+        run = { 'make instll' },
     }
 end)

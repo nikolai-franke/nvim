@@ -4,13 +4,11 @@ require 'settings'
 require 'config.lualine'
 require 'config.lspconfig'
 require 'config.treesitter'
-require 'config.sneak'
 require('nvim-autopairs').setup {}
 require 'config.telescope'
 require 'config.cmp'
 require 'config.tree'
 require 'config.tabline'
-require 'config.quickscope'
 require 'config.terminal'
 require 'config.which-key'
 require('colorizer').setup {}
@@ -19,3 +17,4 @@ require('Comment').setup {}
 require('lsp_signature').setup {}
 require 'config.highlightedyank'
 require 'config.startify'
+require 'config.refactoring'

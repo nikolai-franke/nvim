@@ -9,4 +9,14 @@ treesitter.setup {
         -- Instead of true it can also be a list of languages
         -- additional_vim_regex_highlighting = true,
     },
+    textobjects = {
+        select = {
+            enable = true,
+            lookahead = true,
+
+            keymaps = {
+                ['ac'] = '@comment.outer',
+            },
+        },
+    },
 }
