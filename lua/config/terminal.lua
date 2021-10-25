@@ -43,10 +43,10 @@ terminal.setup {
 
     terminals = {
         -- keymaps to open nth terminal
-        { keymap = '<leader>1' },
-        { keymap = '<leader>2' },
-        { keymap = '<leader>3' },
-        { keymap = '<leader>4' },
-        { keymap = '<leader>5' },
+        { keymap = '<c-1>' },
+        { keymap = '<c-2>' },
+        { keymap = '<c-3>' },
+        { keymap = '<c-4>' },
+        { keymap = '<c-5>' },
     },
 }

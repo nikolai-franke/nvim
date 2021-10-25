@@ -78,3 +78,11 @@ vim.api.nvim_set_keymap('n', '<leader>k', ':m .-2<cr>==', { noremap = true})
 -- Quick replace word under cursor
 vim.api.nvim_set_keymap('n', 'cn', '*``cgn', { noremap = true})
 vim.api.nvim_set_keymap('n', 'cN', '*``cgN', { noremap = true})
+
+-- Harpoon
+vim.api.nvim_set_keymap('n', '<leader>a', ':lua require("harpoon.mark").add_file()<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>e', ':lua require("harpoon.ui").toggle_quick_menu()<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>1', ':lua require("harpoon.ui").nav_file(1)<cr>', { noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>2', ':lua require("harpoon.ui").nav_file(2)<cr>', { noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>3', ':lua require("harpoon.ui").nav_file(3)<cr>', { noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>4', ':lua require("harpoon.ui").nav_file(4)<cr>', { noremap = true})

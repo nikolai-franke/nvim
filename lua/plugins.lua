@@ -70,4 +70,7 @@ return require('packer').startup(function()
         'heavenshell/vim-pydocstring',
         run = { 'make instll' },
     }
+    use 'p00f/nvim-ts-rainbow'
+    use 'nvim-lua/popup.nvim'
+    use 'ThePrimeagen/harpoon'
 end)
