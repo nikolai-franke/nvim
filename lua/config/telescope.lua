@@ -12,4 +12,5 @@ telescope.setup {
     pickers = {},
     extensions = {},
 }
-telescope.load_extension('neoclip')
+telescope.load_extension 'neoclip'
+telescope.load_extension 'projects'

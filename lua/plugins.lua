@@ -2,6 +2,7 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'windwp/nvim-autopairs'
     use 'mhinz/vim-startify'
+    use 'ahmedkhalf/project.nvim'
     use 'nvim-treesitter/nvim-treesitter'
     use 'nvim-treesitter/playground'
     use 'nvim-treesitter/nvim-treesitter-textobjects'
@@ -27,7 +28,6 @@ return require('packer').startup(function()
     use 'tpope/vim-repeat'
     use 'puremourning/vimspector'
     use 'fisadev/vim-isort'
-    -- use 'justinmk/vim-sneak'
     use 'ggandor/lightspeed.nvim'
     use 'vim-scripts/ReplaceWithRegister'
     use {
@@ -37,7 +37,6 @@ return require('packer').startup(function()
     use 'mbbill/undotree'
     use 'norcalli/nvim-colorizer.lua'
     use 'kdheepak/tabline.nvim'
-    use 'unblevable/quick-scope'
     use 'michaeljsmith/vim-indent-object'
     use 'sbdchd/neoformat'
     use 'rafamadriz/friendly-snippets'
@@ -52,7 +51,6 @@ return require('packer').startup(function()
         requires = { 'kyazdani42/nvim-web-devicons', opt = true },
     }
     use 's1n7ax/nvim-terminal'
-    use 'airblade/vim-rooter'
     use 'lervag/vimtex'
     use 'tami5/sqlite.lua'
     use {

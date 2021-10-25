@@ -8,6 +8,7 @@ vim.api.nvim_set_keymap('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', { nor
 vim.api.nvim_set_keymap('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader>fc', '<cmd>Telescope neoclip<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>fp', '<cmd>Telescope projects<cr>', { noremap = true })
 
 -- Tree mappings
 vim.api.nvim_set_keymap('n', '<leader>t', '<cmd>NvimTreeToggle<cr>', { noremap = true })

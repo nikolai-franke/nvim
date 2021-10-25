@@ -18,3 +18,4 @@ require('lsp_signature').setup {}
 require 'config.highlightedyank'
 require 'config.startify'
 require 'config.refactoring'
+require 'config.project'
