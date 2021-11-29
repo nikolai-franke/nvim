@@ -1,3 +1,9 @@
 local project = require 'project_nvim'
 
-project.setup {}
+project.setup {
+    exclude_dirs = {
+        '~',
+        '~/Documents',
+        '/opt/*',
+    },
+}

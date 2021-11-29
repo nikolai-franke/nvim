@@ -22,7 +22,7 @@ cmp.setup {
         ['<Tab>'] = cmp.mapping.confirm { select = true },
     },
     sources = {
-        { name = 'cmp_tabnine' },
+        -- { name = 'cmp_tabnine' },
         { name = 'nvim_lsp' },
 
         -- For vsnip user.

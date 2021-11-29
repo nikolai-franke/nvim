@@ -73,4 +73,5 @@ return require('packer').startup(function()
     use 'p00f/nvim-ts-rainbow'
     use 'nvim-lua/popup.nvim'
     use 'ThePrimeagen/harpoon'
+    use 'szw/vim-maximizer'
 end)

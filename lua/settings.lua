@@ -18,3 +18,4 @@ vim.g.gruvbox_flat_style = 'hard'
 vim.cmd [[colorscheme gruvbox-flat]]
 -- vim.cmd [[colorscheme gruvbox-material]]
 vim.cmd('set signcolumn=yes:1')
+vim.cmd('set guifont=Mononoki\\ Nerd\\ Font:h12')
