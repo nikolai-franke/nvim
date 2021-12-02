@@ -11,14 +11,26 @@ harpoon.setup {
         ['$HOME/catkin_ws/src/kirurc_planning'] = {
             term = {
                 cmds = {
-                    'roslaunch kirurc_panda_box_config demo.launch',
+                    'roslaunch kirurc_panda_box_config_new demo.launch',
                     'roslaunch kirurc_tool_config demo.launch',
                     'rosrun kirurc_planning panda_commander_service.py',
                     'rosrun kirurc_planning tool_space_planning_service.py',
                     'rosrun kirurc_planning space_conversion_service.py',
                     'rosrun kirurc_planning test.py',
-                },
-            },
+                }
+            }
         },
-    },
+        ['$HOME/catkin_ws/src/kirurc_config'] = {
+            term = {
+                cmds = {
+                    'roslaunch kirurc_panda_box_config_new demo.launch',
+                    'roslaunch kirurc_tool_config demo.launch',
+                    'rosrun kirurc_planning panda_commander_service.py',
+                    'rosrun kirurc_planning tool_space_planning_service.py',
+                    'rosrun kirurc_planning space_conversion_service.py',
+                    'rosrun kirurc_planning test.py',
+                }
+            }
+        },
+    }
 }
