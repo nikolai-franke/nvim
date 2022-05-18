@@ -1,5 +1,6 @@
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
+    use 'lambdalisue/suda.vim'
     use 'windwp/nvim-autopairs'
     use 'mhinz/vim-startify'
     use 'ahmedkhalf/project.nvim'
@@ -14,16 +15,17 @@ return require('packer').startup(function()
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-vsnip'
     use 'hrsh7th/vim-vsnip'
-    use {
-        'tzachar/cmp-tabnine',
-        run = './install.sh',
-        requires = 'hrsh7th/nvim-cmp',
-    }
+    -- use {
+    --     'tzachar/cmp-tabnine',
+    --     run = './install.sh',
+    --     requires = 'hrsh7th/nvim-cmp',
+    -- }
     use 'neovim/nvim-lspconfig'
     use 'sainnhe/gruvbox-material'
     use 'marko-cerovac/material.nvim'
     use 'tpope/vim-surround'
-    use 'numToStr/Comment.nvim'
+    -- use 'numToStr/Comment.nvim'
+    use 'terrortylor/nvim-comment'
     use 'tpope/vim-fugitive'
     use 'tpope/vim-repeat'
     use 'puremourning/vimspector'

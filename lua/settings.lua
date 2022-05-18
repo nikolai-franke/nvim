@@ -1,7 +1,7 @@
 vim.o.relativenumber = true
 vim.o.number = true
 vim.o.showtabline = 2
-vim.o.clipboard = 'unnamedplus'
+-- vim.o.clipboard = 'unnamedplus'
 vim.o.termguicolors = true
 vim.o.smarttab = true
 vim.o.autoindent = true

@@ -2,7 +2,7 @@ local neoclip = require 'neoclip'
 
 neoclip.setup {
     history = 1000,
-    enable_persistant_history = true,
+    enable_persistent_history = true,
     db_path = vim.fn.stdpath 'data' .. '/databases/neoclip.sqlite3',
     filter = nil,
     preview = true,
@@ -12,17 +12,19 @@ neoclip.setup {
         set_reg = false,
     },
     keys = {
-        i = {
-            select = '<cr>',
-            paste = '<c-p>',
-            paste_behind = '<c-k>',
-            custom = {},
-        },
-        n = {
-            select = '<cr>',
-            paste = 'p',
-            paste_behind = 'P',
-            custom = {},
-        },
+        telescope = {
+            i = {
+                select = '<cr>',
+                paste = '<c-p>',
+                paste_behind = '<c-k>',
+                custom = {},
+            },
+            n = {
+                select = '<cr>',
+                paste = 'p',
+                paste_behind = 'P',
+                custom = {},
+            },
+        }
     }
 }

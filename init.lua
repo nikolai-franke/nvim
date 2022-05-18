@@ -13,7 +13,8 @@ require 'config.tabline'
 require 'config.which-key'
 require('colorizer').setup {}
 require 'config.neoclip'
-require('Comment').setup {}
+-- require('Comment').setup {}
+require('nvim_comment').setup {}
 require('lsp_signature').setup {}
 require 'config.highlightedyank'
 require 'config.startify'
